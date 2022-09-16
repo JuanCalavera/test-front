@@ -36,7 +36,12 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Test Front'),
+        backgroundColor: Colors.amber,
+        centerTitle: true,
+        title: const Text(
+          'Test Front',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Column(

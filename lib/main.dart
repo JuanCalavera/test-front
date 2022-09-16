@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:teste_front/login.dart';
+import 'package:teste_front/splashScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,6 +34,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Login();
+    return SplashScreen();
   }
 }

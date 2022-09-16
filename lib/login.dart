@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:teste_front/register.dart';
 
+import 'home.dart';
+
 class Login extends StatefulWidget {
   const Login({super.key});
 
@@ -23,14 +25,22 @@ class _LoginState extends State<Login> {
   void login(userName, password) {
     if (userName == 'Juan' && password == 'Calavera') {
       print("login efetuado");
+      Navigator.push(
+          context, MaterialPageRoute(builder: ((context) => const Home())));
     }
+    toogleVisible();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Test Front'),
+        backgroundColor: Colors.amber,
+        centerTitle: true,
+        title: Text(
+          'Test Front',
+          style: TextStyle(color: Colors.black),
+        ),
       ),
       body: Center(
         child: Column(
