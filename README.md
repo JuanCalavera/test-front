@@ -24,7 +24,7 @@ Instale o Flutter [aqui](https://docs.flutter.dev/get-started/install) caso não
 Com o flutter parametrizado em seu ambiente rode o comando abaixo para obter detalhes da instalação e verificar se ele ficará compatível com o Android Studio ou com o Xcode
 
 ```
-    $ flutter doctor
+    flutter doctor
 ```
 
 Ele irá te retornar se todos os requisitos estão compatíveis com a instalação, tudo ok segue para o próximo passo
@@ -34,7 +34,7 @@ Ele irá te retornar se todos os requisitos estão compatíveis com a instalaç�
 No terminal entre na pasta do projeto e nele digite o comando abaixo.
 
 ```
-    $ flutter pub get
+    flutter pub get
 ```
 Ele rodará toda a instalação de dependências do projeto.
 
@@ -43,7 +43,7 @@ Ele rodará toda a instalação de dependências do projeto.
 Agora é só digitar em seu terminal.
 
 ```
-    $ flutter run
+    flutter run
 ```
 
 E verifique o projeto.
